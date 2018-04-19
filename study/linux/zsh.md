@@ -1,12 +1,15 @@
-Prerequisites
-Disclaimer: Oh My Zsh works best on macOS and Linux.
+# 安装zsh & oh-my-zsh
 
-Unix-like operating system (macOS or Linux)
-Zsh should be installed (v4.3.9 or more recent). If not pre-installed (zsh --version to confirm), check the following instruction here: Installing ZSH
-curl or wget should be installed
-git should be installed
-Basic Installation
-Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either curl or wget.
+>  Oh My Zsh works best on macOS and Linux.
+
+## 前提
+
+- 安装zsh
+
+```bash
+sudo yum update && sudo yum -y install zsh
+apt install zsh
+```
 
 
 ```bash

@@ -18,3 +18,11 @@ yum -y install setup
 
 yum -y install perl
 ```
+
+## CentOS 7 关闭防火
+
+用Service iptables status已经无效了，
+
+应该使用：systemctl start iptables.serivce
+
+Centos7中的防火墙调整为firewalld，试一下service firewalld stop关闭防火墙。
