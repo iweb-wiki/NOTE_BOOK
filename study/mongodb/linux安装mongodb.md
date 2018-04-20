@@ -24,10 +24,13 @@ cd /usr/local/server/mongodb/bin/mongod/bin/
 注：如果加权限就用 --auth 参数，不需要权限就去掉
 如果在配置文件中配置好各项参数，则可以使用配置文件启动：
  ./mongod --config /usr/local/server/mongodb/mongodb.conf
-附录：mongodb配置文件详解
-系统服务启动：
+
+- 附录：mongodb配置文件详解
+- 系统服务启动：
 使用系统服务命令启动需要先将服务加入到系统服务中，附录：将mongod添加到系统服务
+```bash
 service mongod start|stop|restart
+```
 注：可以将mongodb临时加入系统路径变量中，这样可以不用输入路径直接启动，代码如下：
 export PATH=/usr/local/server/mongodb/bin:$PATH
 然后可以查看是否成功：echo $PATH

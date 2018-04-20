@@ -1,4 +1,4 @@
-# 执行 Docker 命令没有权限的问题
+# 安装outline时，执行 Docker 命令没有权限的问题
 
 > 在安装outline的时候，需要安装docker，遇到了一些问题，这里记录下。
 
