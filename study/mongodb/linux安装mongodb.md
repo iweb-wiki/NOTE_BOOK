@@ -1,5 +1,5 @@
 
-# Linux下MongoDB安装和配置详解
+# Linux下安装MongoDB
 
 ## 一、MongoDB的安装
 
