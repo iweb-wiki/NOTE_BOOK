@@ -1,7 +1,9 @@
 {
   "private": true,
-  "name": "NOTE_BOOK",
+  "name": "iweb-wiki",
   "version": "1.0.0",
+  "description": "随便写写",
+  "repository": "https://github.com/iweb-wiki/iweb-wiki.github.io",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
