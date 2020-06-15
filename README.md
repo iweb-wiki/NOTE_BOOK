@@ -1,3 +1,7 @@
 # iweb.wiki
 
-## demo
+## deploy
+
+```bash
+npm run deploy
+```
