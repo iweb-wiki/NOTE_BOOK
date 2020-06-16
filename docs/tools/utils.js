@@ -1,7 +1,3 @@
-/**
- * Created by simonyan on 16/6/21.
- */
-
 'use strict';
 
 const urllib = require('urllib');

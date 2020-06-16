@@ -1,6 +1,3 @@
-/**
- * Created by simonyan on 16/6/22.
- */
 'use strict';
 
 const fs = require('fs');
